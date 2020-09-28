@@ -26,7 +26,7 @@ RUN apt-get update \
 
 WORKDIR /build
 
-ARG smoothxg_git_revision=fa1508549db0fb44ec91221f9805bbe51a2e9b07
+ARG smoothxg_git_revision=5308db30f994f690fdc4fa9c90f9f42716d4b21f
 
 RUN git clone --recursive https://github.com/ekg/smoothxg.git && \
         cd smoothxg && \
